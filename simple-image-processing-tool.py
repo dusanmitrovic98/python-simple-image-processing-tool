@@ -42,3 +42,4 @@ def edit_image(img, text, position, color="black"):
         return None
 
 def save_image(img, save_path):
+    try:
