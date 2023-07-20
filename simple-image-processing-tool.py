@@ -80,3 +80,4 @@ def main():
                 6: "FIND_EDGES",
                 7: "SHARPEN",
                 8: "SMOOTH",
+                9: "SMOOTH_MORE",
