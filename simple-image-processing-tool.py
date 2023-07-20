@@ -6,3 +6,4 @@ def open_image(file_path):
         img = Image.open(file_path)
         return img
     except Exception as e:
+        print("Error: Unable to open image.")
