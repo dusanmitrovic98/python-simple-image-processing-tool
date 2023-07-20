@@ -29,3 +29,4 @@ def resize_image(img, width, height):
         return resized_img
     except Exception as e:
         print("Error: Unable to resize image.")
+        return None
