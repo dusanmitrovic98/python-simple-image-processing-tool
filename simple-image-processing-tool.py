@@ -53,3 +53,4 @@ def main():
     file_path = input("Enter the path to the input image: ")
     output_path = input("Enter the path for the output image: ")
 
+    # Check if the file exists
