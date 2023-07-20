@@ -90,3 +90,4 @@ def main():
             selected_filter = int(input("Select a filter option (1-9): "))
 
             if selected_filter not in filter_options:
+                print("Invalid filter option.")
