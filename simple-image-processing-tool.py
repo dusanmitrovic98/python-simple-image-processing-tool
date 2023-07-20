@@ -34,3 +34,4 @@ def resize_image(img, width, height):
 def edit_image(img, text, position, color="black"):
     try:
         draw = ImageDraw.Draw(img)
+        font = ImageFont.truetype("arial.ttf", 36)
