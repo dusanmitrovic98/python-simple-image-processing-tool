@@ -13,3 +13,4 @@ def apply_filter(img, filter_type):
     try:
     try:
         # Convert the filter_type string to the corresponding ImageFilter class
+        filter_class = getattr(ImageFilter, filter_type.upper())
