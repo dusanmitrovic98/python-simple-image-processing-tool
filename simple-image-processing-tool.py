@@ -32,3 +32,4 @@ def resize_image(img, width, height):
         return None
 
 def edit_image(img, text, position, color="black"):
+    try:
