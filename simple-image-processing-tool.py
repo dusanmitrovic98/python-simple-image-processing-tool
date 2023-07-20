@@ -73,3 +73,4 @@ def main():
             # Available filter types
             filter_options = {
                 1: "BLUR",
+                2: "CONTOUR",
