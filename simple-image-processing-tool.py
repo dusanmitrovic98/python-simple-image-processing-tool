@@ -17,3 +17,4 @@ def apply_filter(img, filter_type):
         filtered_img = img.filter(filter_class)
         return filtered_img
     except AttributeError:
+        print(f"Error: Invalid filter type '{filter_type}'.")
