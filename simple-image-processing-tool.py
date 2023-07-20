@@ -81,3 +81,4 @@ def main():
                 7: "SHARPEN",
                 8: "SMOOTH",
                 9: "SMOOTH_MORE",
+            }
