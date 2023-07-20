@@ -37,3 +37,4 @@ def edit_image(img, text, position, color="black"):
         font = ImageFont.truetype("arial.ttf", 36)
         draw.text(position, text, fill=color, font=font)
         return img
+    except Exception as e:
