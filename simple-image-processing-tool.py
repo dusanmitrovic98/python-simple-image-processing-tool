@@ -44,3 +44,4 @@ def edit_image(img, text, position, color="black"):
 def save_image(img, save_path):
     try:
         # Save the processed image
+        img.save(save_path)
