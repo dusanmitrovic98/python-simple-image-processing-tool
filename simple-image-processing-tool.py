@@ -23,3 +23,4 @@ def apply_filter(img, filter_type):
         print(str(e))  # Print the actual error message for debugging purposes
     return None
 
+def resize_image(img, width, height):
