@@ -85,3 +85,4 @@ def main():
 
             print("Available filter options:")
             for key, value in filter_options.items():
+                print(f"{key}. {value}")
