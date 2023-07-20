@@ -58,3 +58,4 @@ def main():
         print("Error: Input file not found.")
         return
 
+    img = open_image(file_path)
