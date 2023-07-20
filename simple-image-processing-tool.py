@@ -11,3 +11,4 @@ def open_image(file_path):
 
 def apply_filter(img, filter_type):
     try:
+    try:
