@@ -76,3 +76,4 @@ def main():
                 2: "CONTOUR",
                 3: "DETAIL",
                 4: "EDGE_ENHANCE",
+                5: "EMBOSS",
