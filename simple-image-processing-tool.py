@@ -72,3 +72,4 @@ def main():
         if selected_option == 1:
             # Available filter types
             filter_options = {
+                1: "BLUR",
