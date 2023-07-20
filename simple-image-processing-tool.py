@@ -66,3 +66,4 @@ def main():
         print("Available options:")
         print("1. Apply filter")
         print("2. Resize image")
+        print("3. Add text overlay")
