@@ -55,3 +55,4 @@ def main():
 
     # Check if the file exists
     if not os.path.exists(file_path):
+        print("Error: Input file not found.")
