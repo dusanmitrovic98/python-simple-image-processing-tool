@@ -12,3 +12,4 @@ def open_image(file_path):
 def apply_filter(img, filter_type):
     try:
     try:
+        # Convert the filter_type string to the corresponding ImageFilter class
