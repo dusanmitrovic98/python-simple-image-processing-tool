@@ -31,3 +31,4 @@ def resize_image(img, width, height):
         print("Error: Unable to resize image.")
         return None
 
+def edit_image(img, text, position, color="black"):
