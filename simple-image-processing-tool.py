@@ -50,3 +50,4 @@ def save_image(img, save_path):
         print("Error: Unable to save image.")
 
 def main():
+    file_path = input("Enter the path to the input image: ")
