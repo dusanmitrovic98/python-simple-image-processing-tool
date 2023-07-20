@@ -77,3 +77,4 @@ def main():
                 3: "DETAIL",
                 4: "EDGE_ENHANCE",
                 5: "EMBOSS",
+                6: "FIND_EDGES",
