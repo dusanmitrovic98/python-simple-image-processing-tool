@@ -64,3 +64,4 @@ def main():
         
         # Prompt the user for available options
         print("Available options:")
+        print("1. Apply filter")
