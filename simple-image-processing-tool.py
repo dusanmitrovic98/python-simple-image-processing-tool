@@ -88,3 +88,4 @@ def main():
                 print(f"{key}. {value}")
 
             selected_filter = int(input("Select a filter option (1-9): "))
+
