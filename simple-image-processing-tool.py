@@ -79,3 +79,4 @@ def main():
                 5: "EMBOSS",
                 6: "FIND_EDGES",
                 7: "SHARPEN",
+                8: "SMOOTH",
