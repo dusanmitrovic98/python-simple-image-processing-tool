@@ -18,3 +18,4 @@ def apply_filter(img, filter_type):
     except AttributeError:
         print(f"Error: Invalid filter type '{filter_type}'.")
     except Exception as e:
+        print("Error: Unable to apply filter.")
