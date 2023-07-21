@@ -8,3 +8,4 @@ def open_image(file_path):
     except Exception as e:
         print("Error: Unable to open image.")
         return None
+
