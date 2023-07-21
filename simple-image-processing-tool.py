@@ -46,3 +46,4 @@ def save_image(img, save_path):
         img.save(save_path)
         print("Image saved successfully.")
     except Exception as e:
+        print("Error: Unable to save image.")
