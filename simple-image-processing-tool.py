@@ -51,3 +51,4 @@ def save_image(img, save_path):
 def main():
     file_path = input("Enter the path to the input image: ")
     output_path = input("Enter the path for the output image: ")
+
