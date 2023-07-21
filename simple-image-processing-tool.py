@@ -74,3 +74,4 @@ def main():
                 1: "BLUR",
                 2: "CONTOUR",
                 3: "DETAIL",
+                4: "EDGE_ENHANCE",
