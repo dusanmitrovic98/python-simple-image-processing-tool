@@ -20,3 +20,4 @@ def apply_filter(img, filter_type):
     except Exception as e:
         print("Error: Unable to apply filter.")
         print(str(e))  # Print the actual error message for debugging purposes
+    return None
