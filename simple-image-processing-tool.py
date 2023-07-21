@@ -25,3 +25,4 @@ def apply_filter(img, filter_type):
 def resize_image(img, width, height):
     try:
         resized_img = img.resize((width, height))
+        return resized_img
