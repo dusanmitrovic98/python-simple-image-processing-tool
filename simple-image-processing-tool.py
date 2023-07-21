@@ -15,3 +15,4 @@ def apply_filter(img, filter_type):
         filter_class = getattr(ImageFilter, filter_type.upper())
         filtered_img = img.filter(filter_class)
         return filtered_img
+    except AttributeError:
