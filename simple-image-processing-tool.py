@@ -38,3 +38,4 @@ def edit_image(img, text, position, color="black"):
         return img
     except Exception as e:
         print("Error: Unable to edit image.")
+        return None
