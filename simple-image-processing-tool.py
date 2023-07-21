@@ -90,3 +90,4 @@ def main():
 
             if selected_filter not in filter_options:
                 print("Invalid filter option.")
+                return
