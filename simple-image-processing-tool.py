@@ -59,3 +59,4 @@ def main():
 
     img = open_image(file_path)
     if img:
+        print("Image opened successfully.")
