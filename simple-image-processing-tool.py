@@ -3,3 +3,4 @@ import os
 
 def open_image(file_path):
     try:
+        img = Image.open(file_path)
