@@ -40,3 +40,4 @@ def edit_image(img, text, position, color="black"):
         print("Error: Unable to edit image.")
         return None
 
+def save_image(img, save_path):
