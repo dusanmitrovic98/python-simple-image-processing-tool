@@ -10,3 +10,4 @@ def open_image(file_path):
         return None
 
 def apply_filter(img, filter_type):
+    try:
