@@ -58,3 +58,4 @@ def main():
         return
 
     img = open_image(file_path)
+    if img:
