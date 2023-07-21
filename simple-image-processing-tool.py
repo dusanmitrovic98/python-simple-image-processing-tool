@@ -66,3 +66,4 @@ def main():
         print("1. Apply filter")
         print("2. Resize image")
         print("3. Add text overlay")
+        selected_option = int(input("Select an option (1, 2, or 3): "))
