@@ -9,3 +9,4 @@ def open_image(file_path):
         print("Error: Unable to open image.")
         return None
 
+def apply_filter(img, filter_type):
