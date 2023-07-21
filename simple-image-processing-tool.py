@@ -82,3 +82,4 @@ def main():
                 9: "SMOOTH_MORE",
             }
 
+            print("Available filter options:")
