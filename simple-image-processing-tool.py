@@ -92,3 +92,4 @@ def main():
                 print("Invalid filter option.")
                 return
 
+            filter_type = filter_options[selected_filter]
