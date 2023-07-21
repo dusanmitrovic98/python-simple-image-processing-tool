@@ -35,3 +35,4 @@ def edit_image(img, text, position, color="black"):
         draw = ImageDraw.Draw(img)
         font = ImageFont.truetype("arial.ttf", 36)
         draw.text(position, text, fill=color, font=font)
+        return img
