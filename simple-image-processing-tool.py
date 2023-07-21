@@ -48,3 +48,4 @@ def save_image(img, save_path):
     except Exception as e:
         print("Error: Unable to save image.")
 
+def main():
