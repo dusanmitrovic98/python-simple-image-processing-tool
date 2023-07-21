@@ -68,3 +68,4 @@ def main():
         print("3. Add text overlay")
         selected_option = int(input("Select an option (1, 2, or 3): "))
 
+        if selected_option == 1:
