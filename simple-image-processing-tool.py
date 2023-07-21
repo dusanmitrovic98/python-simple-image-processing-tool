@@ -45,3 +45,4 @@ def save_image(img, save_path):
         # Save the processed image
         img.save(save_path)
         print("Image saved successfully.")
+    except Exception as e:
