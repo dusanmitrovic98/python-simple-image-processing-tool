@@ -69,3 +69,4 @@ def main():
         selected_option = int(input("Select an option (1, 2, or 3): "))
 
         if selected_option == 1:
+            # Available filter types
