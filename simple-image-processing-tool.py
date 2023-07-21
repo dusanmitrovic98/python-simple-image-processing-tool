@@ -93,3 +93,4 @@ def main():
                 return
 
             filter_type = filter_options[selected_filter]
+            filtered_img = apply_filter(img, filter_type)
