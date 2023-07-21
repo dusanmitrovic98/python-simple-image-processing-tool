@@ -37,3 +37,4 @@ def edit_image(img, text, position, color="black"):
         draw.text(position, text, fill=color, font=font)
         return img
     except Exception as e:
+        print("Error: Unable to edit image.")
