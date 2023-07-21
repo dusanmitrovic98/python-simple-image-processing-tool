@@ -61,3 +61,4 @@ def main():
     if img:
         print("Image opened successfully.")
         
+        # Prompt the user for available options
