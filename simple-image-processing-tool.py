@@ -1,2 +1,1 @@
-            filtered_img = resize_image(img, width, height)
-
+from PIL import Image, ImageFilter, ImageDraw, ImageFont
