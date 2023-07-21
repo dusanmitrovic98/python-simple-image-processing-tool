@@ -26,3 +26,4 @@ def resize_image(img, width, height):
     try:
         resized_img = img.resize((width, height))
         return resized_img
+    except Exception as e:
