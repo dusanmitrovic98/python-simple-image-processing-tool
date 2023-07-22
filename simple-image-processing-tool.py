@@ -14,7 +14,7 @@ def apply_filter(img, filter_type):
         # Convert the filter_type string to the corresponding ImageFilter class
         filter_class = getattr(ImageFilter, filter_type.upper())
         filtered_img = img.filter(filter_class)
-        return filtered_img
+        return  
     except AttributeError:
         print(f"Error: Invalid filter type '{filter_type}'.")
     except Exception as e:
@@ -96,3 +96,25 @@ def main():
             filtered_img = apply_filter(img, filter_type)
 
         elif selected_option == 2:
+            width = int(input("Enter the new width: "))
+            height = int(input("Enter the new height: "))
+            filtered_img = resize_image(img, width, height)
+
+        elif selected_option == 3:
+            text = input("Enter the text: ")
+            position_x = int(input("Enter the X position for the text: "))
+            position_y = int(input("Enter the Y position for the text: "))
+            color = input("Enter the color of the text (RGB format, e.g., 255,0,0 for red): ")
+            color = tuple(map(int, color.split(",")))
+            filtered_img = edit_image(img, text, (position_x, position_y), color=color)
+
+        else:
+            print("Invalid option.")
+            return
+
+        if filtered_img:
+            save_image(filtered_img, output_path)
+
+if __name__ == "__main__":
+    main()
+    
